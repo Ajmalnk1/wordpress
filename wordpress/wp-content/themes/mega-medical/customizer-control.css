@@ -1,0 +1,10 @@
+li#customize-control-mega_charity_theme_options-about_image_1,
+li#customize-control-mega_charity_theme_options-about_image_2,
+li#customize-control-mega_charity_theme_options-about_sub_title,
+li#accordion-section-mega_charity_help_us_section,
+li#accordion-section-mega_charity_counter_section,
+li#accordion-section-mega_charity_hero_banner_section,
+li#customize-control-mega_charity_theme_options-service_btn_title,
+li#customize-control-mega_charity_theme_options-service_btn_url {
+    display: none !important;
+}

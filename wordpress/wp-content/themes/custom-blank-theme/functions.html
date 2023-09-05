@@ -1,0 +1,10 @@
+<?php
+
+function custom_blank_theme_function() {
+    wp_enqueue_script('main-university-js', get_theme_file_uri('/js/main.js'), array(), '1.0', true);
+    wp_enqueue_style('font-awesome', '//use.fontawesome.com/releases/v5.15.3/css/all.css');
+    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+    wp_enqueue_style('main_style', get_stylesheet_uri());
+}
+
+add_action('wp_enqueue_scripts', 'custom_blank_theme_function');
